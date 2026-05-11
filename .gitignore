@@ -216,3 +216,46 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# MQL5 specific
+*.ex5                          # Compiled EA files
+*.mo5                          # Library files  
+*.obj                          # Object files
+*.dep
+*.asm
+
+# Log files (except in Tests/)
+*.log
+
+# General
+.DS_Store                       # macOS
+Thumbs.db                       # Windows
+*.tmp
+*.temp
+*.bak
+*~
+
+# IDE / Editor
+.vscode/                        # VS Code
+.idea/                          # JetBrains
+*.swp                           # Vim
+*.swo                           # Vim
+*~.nib                          # Xcode
+
+# OS-specific
+desktop.ini                     # Windows
+.AppleDouble                    # macOS
+.LSOverride                     # macOS
+
+# Python (if you add Python tools later)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+
+# Keep these
+!Tests/**/*.log
+!Data/**/*.csv
+!*.md
+!LICENSE
