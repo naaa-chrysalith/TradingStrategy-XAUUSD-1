@@ -33,3 +33,4 @@
 - Remember to log each session
 - Record what worked/what didn't
 - Keep learning daily
+
